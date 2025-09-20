@@ -1,0 +1,69 @@
+[
+  {
+    "id": "1",
+    "name": "Central Emergency Shelter",
+    "address": "Central Park, Bangalore",
+    "lat": 12.9716,
+    "lng": 77.5946,
+    "capacity": 200,
+    "currentOccupancy": 45,
+    "contact": "+91-9876543210",
+    "facilities": ["Food", "Water", "Medical", "Restrooms", "WiFi"],
+    "status": "open",
+    "lastUpdated": "2024-01-15T10:00:00Z"
+  },
+  {
+    "id": "2",
+    "name": "North Zone Shelter",
+    "address": "North Park, Bangalore",
+    "lat": 13.0408,
+    "lng": 77.6122,
+    "capacity": 150,
+    "currentOccupancy": 23,
+    "contact": "+91-9876543211",
+    "facilities": ["Food", "Water", "Medical", "Restrooms"],
+    "status": "open",
+    "lastUpdated": "2024-01-15T09:30:00Z"
+  },
+  {
+    "id": "3",
+    "name": "South Zone Shelter",
+    "address": "South Park, Bangalore",
+    "lat": 12.9041,
+    "lng": 77.5621,
+    "capacity": 100,
+    "currentOccupancy": 67,
+    "contact": "+91-9876543212",
+    "facilities": ["Food", "Water", "Restrooms"],
+    "status": "open",
+    "lastUpdated": "2024-01-15T09:45:00Z"
+  },
+  {
+    "id": "4",
+    "name": "East Zone Shelter",
+    "address": "East Park, Bangalore",
+    "lat": 12.9716,
+    "lng": 77.6500,
+    "capacity": 120,
+    "currentOccupancy": 89,
+    "contact": "+91-9876543213",
+    "facilities": ["Food", "Water", "Medical"],
+    "status": "near_capacity",
+    "lastUpdated": "2024-01-15T10:15:00Z"
+  },
+  {
+    "id": "5",
+    "name": "West Zone Shelter",
+    "address": "West Park, Bangalore",
+    "lat": 12.9716,
+    "lng": 77.5400,
+    "capacity": 80,
+    "currentOccupancy": 12,
+    "contact": "+91-9876543214",
+    "facilities": ["Food", "Water", "Restrooms", "WiFi"],
+    "status": "open",
+    "lastUpdated": "2024-01-15T09:00:00Z"
+  }
+]
+
+

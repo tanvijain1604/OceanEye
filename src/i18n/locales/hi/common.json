@@ -1,0 +1,170 @@
+{
+  "nav": {
+    "home": "होम",
+    "precautions": "सावधानियां",
+    "local_ngos": "स्थानीय एनजीओ",
+    "evacuation": "निकासी सहायता",
+    "social": "सोशल",
+    "dashboard": "डैशबोर्ड",
+    "login": "लॉगिन",
+    "signup": "साइन अप",
+    "logout": "लॉग आउट"
+  },
+  "auth": {
+    "login": "लॉगिन",
+    "signup": "साइन अप",
+    "email": "ईमेल",
+    "password": "पासवर्ड",
+    "confirmPassword": "पासवर्ड की पुष्टि करें",
+    "role": {
+      "citizen": "नागरिक",
+      "official": "अधिकारी",
+      "analyst": "विश्लेषक"
+    },
+    "selectRole": "अपनी भूमिका चुनें",
+    "loginSuccess": "लॉगिन सफल",
+    "signupSuccess": "खाता सफलतापूर्वक बनाया गया"
+  },
+  "dashboard": {
+    "title": {
+      "citizen": "नागरिक डैशबोर्ड",
+      "official": "अधिकारी डैशबोर्ड",
+      "analyst": "विश्लेषक डैशबोर्ड"
+    },
+    "welcome": "वापस स्वागत है"
+  },
+  "citizen": {
+    "alerts": {
+      "title": "सुरक्षा अलर्ट",
+      "urgent": "तत्काल",
+      "warning": "चेतावनी",
+      "info": "जानकारी"
+    },
+    "shelters": {
+      "title": "निकटवर्ती आश्रय",
+      "capacity": "क्षमता",
+      "distance": "दूरी",
+      "contact": "संपर्क"
+    },
+    "weather": {
+      "title": "मौसम ब्रीफ",
+      "current": "वर्तमान स्थिति",
+      "forecast": "3-दिवसीय पूर्वानुमान"
+    },
+    "report": {
+      "title": "घटना की रिपोर्ट करें",
+      "type": "घटना का प्रकार",
+      "description": "विवरण",
+      "location": "स्थान",
+      "photo": "फोटो अपलोड",
+      "submit": "रिपोर्ट सबमिट करें",
+      "pending": "रिपोर्ट सबमिट - समीक्षा लंबित"
+    },
+    "evacuation": {
+      "title": "निकासी मार्ग",
+      "nearest": "निकटतम मार्ग",
+      "openMaps": "मैप्स में खोलें"
+    }
+  },
+  "official": {
+    "moderation": {
+      "title": "घटना मॉडरेशन",
+      "pending": "लंबित रिपोर्ट",
+      "approve": "अनुमोदन",
+      "reject": "अस्वीकार",
+      "review": "विवरण समीक्षा"
+    },
+    "resources": {
+      "title": "संसाधन प्रबंधक",
+      "available": "उपलब्ध",
+      "allocated": "आवंटित",
+      "adjust": "गिनती समायोजित करें"
+    },
+    "tasks": {
+      "title": "कार्य असाइनमेंट",
+      "assign": "टीम असाइन करें",
+      "status": "स्थिति",
+      "priority": "प्राथमिकता"
+    },
+    "pushAlert": {
+      "title": "जोन अलर्ट भेजें",
+      "selectZone": "जोन चुनें",
+      "message": "अलर्ट संदेश",
+      "send": "अलर्ट भेजें"
+    }
+  },
+  "analyst": {
+    "trends": {
+      "title": "ट्रेंड अवलोकन",
+      "byRegion": "क्षेत्र के अनुसार",
+      "bySeverity": "गंभीरता के अनुसार",
+      "timeRange": "समय सीमा"
+    },
+    "predictive": {
+      "title": "भविष्यवाणी विश्लेषण",
+      "confidence": "विश्वास स्तर",
+      "forecast": "जोखिम पूर्वानुमान"
+    },
+    "filters": {
+      "title": "फिल्टर",
+      "region": "क्षेत्र",
+      "severity": "गंभीरता",
+      "timeline": "समयरेखा"
+    },
+    "export": {
+      "title": "रिपोर्ट निर्यात",
+      "pdf": "PDF डाउनलोड",
+      "csv": "CSV डाउनलोड",
+      "generate": "रिपोर्ट जेनरेट करें"
+    }
+  },
+  "common": {
+    "actions": {
+      "save": "सहेजें",
+      "cancel": "रद्द करें",
+      "submit": "सबमिट करें",
+      "edit": "संपादित करें",
+      "delete": "हटाएं",
+      "view": "देखें",
+      "close": "बंद करें"
+    },
+    "status": {
+      "pending": "लंबित",
+      "approved": "अनुमोदित",
+      "rejected": "अस्वीकृत",
+      "inProgress": "प्रगति में",
+      "completed": "पूर्ण"
+    },
+    "loading": "लोड हो रहा है...",
+    "error": "एक त्रुटि हुई",
+    "success": "सफल",
+    "noData": "कोई डेटा उपलब्ध नहीं",
+    "search": "खोजें...",
+    "filter": "फिल्टर",
+    "clear": "साफ करें",
+    "select": "चुनें...",
+    "required": "आवश्यक फील्ड"
+  },
+  "precautions": {
+    "title": "सुरक्षा सावधानियां",
+    "before": "आपातकाल से पहले",
+    "during": "आपातकाल के दौरान",
+    "after": "आपातकाल के बाद",
+    "checklist": "चेकलिस्ट डाउनलोड करें"
+  },
+  "ngos": {
+    "title": "स्थानीय एनजीओ",
+    "contact": "संपर्क",
+    "volunteer": "स्वयंसेवक",
+    "donate": "दान करें"
+  },
+  "evacuation": {
+    "title": "निकासी सहायता",
+    "routes": "निकासी मार्ग",
+    "shelters": "आपातकालीन आश्रय",
+    "capacity": "क्षमता",
+    "eta": "अनुमानित समय"
+  }
+}
+
+

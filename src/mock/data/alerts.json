@@ -1,0 +1,44 @@
+[
+  {
+    "id": "1",
+    "type": "urgent",
+    "title": "Tsunami Warning",
+    "message": "High alert: Tsunami warning issued for coastal areas. Evacuate immediately to higher ground.",
+    "timestamp": "2024-01-15T10:30:00Z",
+    "severity": "critical",
+    "region": "coastal",
+    "expires": "2024-01-15T18:30:00Z"
+  },
+  {
+    "id": "2",
+    "type": "warning",
+    "title": "Heavy Rain Alert",
+    "message": "Heavy rainfall expected in the next 2 hours. Stay indoors and avoid low-lying areas.",
+    "timestamp": "2024-01-15T09:15:00Z",
+    "severity": "high",
+    "region": "central",
+    "expires": "2024-01-15T15:15:00Z"
+  },
+  {
+    "id": "3",
+    "type": "info",
+    "title": "Shelter Update",
+    "message": "New emergency shelter opened at Central Park with capacity for 200 people.",
+    "timestamp": "2024-01-15T08:00:00Z",
+    "severity": "low",
+    "region": "central",
+    "expires": null
+  },
+  {
+    "id": "4",
+    "type": "warning",
+    "title": "Flood Watch",
+    "message": "River levels rising rapidly. Monitor local conditions and be prepared to evacuate.",
+    "timestamp": "2024-01-15T07:45:00Z",
+    "severity": "medium",
+    "region": "north",
+    "expires": "2024-01-16T07:45:00Z"
+  }
+]
+
+

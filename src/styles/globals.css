@@ -1,0 +1,194 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-gray-200;
+  }
+  
+  body {
+    @apply bg-primary-foam text-gray-900 font-sans;
+    font-feature-settings: "rlig" 1, "calt" 1;
+    /* Global ocean background */
+    background-image: url('/ocean-bg.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply bg-white/70 backdrop-blur-md rounded-2xl shadow-glass border border-white/20;
+  }
+  .btn-pill-grad {
+    @apply rounded-full text-white shadow-xl hover:brightness-110;
+    background-image: linear-gradient(90deg, #15b2c9, #42e3cf);
+  }
+  
+  .ocean-gradient {
+    @apply bg-gradient-to-br from-primary-navy via-primary-ocean to-primary-seafoam;
+  }
+  
+  .wave-border {
+    position: relative;
+  }
+  
+  .wave-border::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(45deg, transparent 30%, rgba(30, 144, 255, 0.1) 50%, transparent 70%);
+    border-radius: inherit;
+    pointer-events: none;
+  }
+  
+  .btn-primary {
+    @apply bg-primary-ocean hover:bg-primary-steel text-white font-medium px-6 py-3 rounded-xl transition-all duration-200 shadow-ocean hover:shadow-lg transform hover:-translate-y-0.5;
+  }
+  
+  .btn-secondary {
+    @apply bg-white/80 hover:bg-white text-primary-navy font-medium px-6 py-3 rounded-xl transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 border border-primary-ocean/20;
+  }
+  
+  .btn-danger {
+    @apply bg-danger hover:bg-red-600 text-white font-medium px-6 py-3 rounded-xl transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5;
+  }
+  
+  .btn-safe {
+    @apply bg-safe hover:bg-green-600 text-white font-medium px-6 py-3 rounded-xl transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5;
+  }
+  
+  .alert-urgent {
+    @apply bg-danger/10 border-l-4 border-danger text-danger font-semibold p-4 rounded-r-xl;
+  }
+  
+  .alert-warning {
+    @apply bg-warning/10 border-l-4 border-warning text-warning font-semibold p-4 rounded-r-xl;
+  }
+  
+  .alert-safe {
+    @apply bg-safe/10 border-l-4 border-safe text-safe font-semibold p-4 rounded-r-xl;
+  }
+  
+  .chart-container {
+    @apply glass-card p-6;
+  }
+  
+  .map-container {
+    @apply glass-card overflow-hidden;
+  }
+  
+  .status-chip {
+    @apply px-3 py-1 rounded-full text-sm font-medium;
+  }
+  
+  .status-pending {
+    @apply bg-warning/20 text-warning;
+  }
+  
+  .status-approved {
+    @apply bg-safe/20 text-safe;
+  }
+  
+  .status-rejected {
+    @apply bg-danger/20 text-danger;
+  }
+  
+  .status-in-progress {
+    @apply bg-primary-ocean/20 text-primary-ocean;
+  }
+  
+  .status-completed {
+    @apply bg-safe/20 text-safe;
+  }
+
+  /* Dashboard background using ocean image (public/meow.png) with overlay */
+  .dashboard-bg {
+    background-image: linear-gradient(rgba(0, 51, 102, 0.2), rgba(0, 51, 102, 0.2)), url('/meow.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+}
+
+@layer utilities {
+  /* Ocean-friendly typography for dark image backgrounds */
+  .on-ocean { @apply text-slate-100; }
+  .on-ocean a { @apply text-sky-200 hover:text-sky-100; }
+  /* Ensure text inside light card surfaces stays dark for readability */
+  .on-ocean .glass-card,
+  .on-ocean .bg-white\/80,
+  .on-ocean .bg-white\/90 { @apply text-gray-900; }
+
+  /* Make primary foam background transparent to reveal global ocean image */
+  .bg-primary-foam {
+    background: transparent !important;
+  }
+  .text-balance {
+    text-wrap: balance;
+  }
+  
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .motion-safe {
+    @media (prefers-reduced-motion: no-preference) {
+      animation-duration: 0.3s;
+    }
+  }
+  
+  .motion-reduce {
+    @media (prefers-reduced-motion: reduce) {
+      animation-duration: 0.01ms;
+      animation-iteration-count: 1;
+    }
+  }
+}
+
+/* Custom scrollbar for webkit browsers */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-primary-foam;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-primary-ocean/30 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-primary-ocean/50;
+}
+
+/* Focus styles for accessibility */
+.focus-visible:focus {
+  @apply outline-none ring-2 ring-primary-ocean ring-offset-2;
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+  .glass-card {
+    @apply bg-white border-2 border-primary-navy;
+  }
+  
+  .btn-primary {
+    @apply border-2 border-primary-navy;
+  }
+}

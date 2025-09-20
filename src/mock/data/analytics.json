@@ -1,0 +1,89 @@
+{
+  "trends": {
+    "incidentsByMonth": [
+      { month: "Jan", count: 12, severity: 2.5 },
+      { month: "Feb", count: 15, severity: 3.1 },
+      { month: "Mar", count: 18, severity: 2.8 },
+      { month: "Apr", count: 22, severity: 3.5 },
+      { month: "May", count: 25, severity: 3.2 },
+      { month: "Jun", count: 28, severity: 3.8 },
+      { month: "Jul", count: 32, severity: 4.1 },
+      { month: "Aug", count: 30, severity: 3.9 },
+      { month: "Sep", count: 26, severity: 3.6 },
+      { month: "Oct", count: 24, severity: 3.3 },
+      { month: "Nov", count: 20, severity: 3.0 },
+      { month: "Dec", count: 16, severity: 2.7 }
+    ],
+    "incidentsByRegion": [
+      { region: "North", count: 45, percentage: 25 },
+      { region: "South", count: 38, percentage: 21 },
+      { region: "East", count: 42, percentage: 23 },
+      { region: "West", count: 35, percentage: 19 },
+      { region: "Central", count: 22, percentage: 12 }
+    ],
+    "incidentsByType": [
+      { type: "Flooding", count: 35, trend: "increasing" },
+      { type: "Power Outage", count: 28, trend: "stable" },
+      { type: "Tree Fall", count: 22, trend: "decreasing" },
+      { type: "Building Collapse", count: 8, trend: "stable" },
+      { type: "Gas Leak", count: 12, trend: "increasing" },
+      { type: "Fire", count: 15, trend: "stable" }
+    ]
+  },
+  "predictive": {
+    "riskForecast": [
+      { date: "2024-01-16", riskLevel: 0.75, confidence: 0.85 },
+      { date: "2024-01-17", riskLevel: 0.68, confidence: 0.82 },
+      { date: "2024-01-18", riskLevel: 0.72, confidence: 0.78 },
+      { date: "2024-01-19", riskLevel: 0.65, confidence: 0.75 },
+      { date: "2024-01-20", riskLevel: 0.58, confidence: 0.72 },
+      { date: "2024-01-21", riskLevel: 0.62, confidence: 0.68 },
+      { date: "2024-01-22", riskLevel: 0.70, confidence: 0.65 }
+    ],
+    "weatherCorrelation": {
+      "rainfall": 0.78,
+      "temperature": 0.45,
+      "windSpeed": 0.62,
+      "humidity": 0.71
+    },
+    "seasonalPatterns": {
+      "monsoon": { riskMultiplier: 1.8, months: ["Jun", "Jul", "Aug", "Sep"] },
+      "summer": { riskMultiplier: 1.2, months: ["Mar", "Apr", "May"] },
+      "winter": { riskMultiplier: 0.9, months: ["Dec", "Jan", "Feb"] },
+      "postMonsoon": { riskMultiplier: 1.1, months: ["Oct", "Nov"] }
+    }
+  },
+  "performance": {
+    "responseTime": {
+      "average": 2.5,
+      "target": 2.0,
+      "trend": "improving"
+    },
+    "resolutionRate": {
+      "current": 0.87,
+      "target": 0.90,
+      "trend": "stable"
+    },
+    "satisfaction": {
+      "current": 4.2,
+      "target": 4.5,
+      "trend": "improving"
+    }
+  },
+  "resources": {
+    "utilization": {
+      "food": 0.65,
+      "water": 0.70,
+      "medical": 0.45,
+      "shelter": 0.80
+    },
+    "replenishment": {
+      "food": { daysRemaining: 7, status: "critical" },
+      "water": { daysRemaining: 12, status: "warning" },
+      "medical": { daysRemaining: 21, status: "good" },
+      "shelter": { daysRemaining: 5, status: "critical" }
+    }
+  }
+}
+
+

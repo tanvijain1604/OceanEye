@@ -1,0 +1,171 @@
+{
+  "nav": {
+    "home": "Home",
+    "precautions": "Precautions",
+    "local_ngos": "Local NGOs",
+    "evacuation": "Evacuation Support",
+    "incois": "About INCOIS",
+    "social": "Social",
+    "dashboard": "Dashboard",
+    "login": "Login",
+    "signup": "Sign Up",
+    "logout": "Logout"
+  },
+  "auth": {
+    "login": "Login",
+    "signup": "Sign Up",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "role": {
+      "citizen": "Citizen",
+      "official": "Official",
+      "analyst": "Analyst"
+    },
+    "selectRole": "Select your role",
+    "loginSuccess": "Login successful",
+    "signupSuccess": "Account created successfully"
+  },
+  "dashboard": {
+    "title": {
+      "citizen": "Citizen Dashboard",
+      "official": "Official Dashboard", 
+      "analyst": "Analyst Dashboard"
+    },
+    "welcome": "Welcome back"
+  },
+  "citizen": {
+    "alerts": {
+      "title": "Safety Alerts",
+      "urgent": "URGENT",
+      "warning": "WARNING",
+      "info": "INFO"
+    },
+    "shelters": {
+      "title": "Nearby Shelters",
+      "capacity": "Capacity",
+      "distance": "Distance",
+      "contact": "Contact"
+    },
+    "weather": {
+      "title": "Weather Brief",
+      "current": "Current Conditions",
+      "forecast": "3-Day Forecast"
+    },
+    "report": {
+      "title": "Report Incident",
+      "type": "Incident Type",
+      "description": "Description",
+      "location": "Location",
+      "photo": "Photo Upload",
+      "submit": "Submit Report",
+      "pending": "Report Submitted - Pending Review"
+    },
+    "evacuation": {
+      "title": "Evacuation Routes",
+      "nearest": "Nearest Route",
+      "openMaps": "Open in Maps"
+    }
+  },
+  "official": {
+    "moderation": {
+      "title": "Incident Moderation",
+      "pending": "Pending Reports",
+      "approve": "Approve",
+      "reject": "Reject",
+      "review": "Review Details"
+    },
+    "resources": {
+      "title": "Resource Manager",
+      "available": "Available",
+      "allocated": "Allocated",
+      "adjust": "Adjust Count"
+    },
+    "tasks": {
+      "title": "Task Assignment",
+      "assign": "Assign Team",
+      "status": "Status",
+      "priority": "Priority"
+    },
+    "pushAlert": {
+      "title": "Push Zone Alert",
+      "selectZone": "Select Zone",
+      "message": "Alert Message",
+      "send": "Send Alert"
+    }
+  },
+  "analyst": {
+    "trends": {
+      "title": "Trends Overview",
+      "byRegion": "By Region",
+      "bySeverity": "By Severity",
+      "timeRange": "Time Range"
+    },
+    "predictive": {
+      "title": "Predictive Analytics",
+      "confidence": "Confidence Level",
+      "forecast": "Risk Forecast"
+    },
+    "filters": {
+      "title": "Filters",
+      "region": "Region",
+      "severity": "Severity",
+      "timeline": "Timeline"
+    },
+    "export": {
+      "title": "Export Reports",
+      "pdf": "Download PDF",
+      "csv": "Download CSV",
+      "generate": "Generate Report"
+    }
+  },
+  "common": {
+    "actions": {
+      "save": "Save",
+      "cancel": "Cancel",
+      "submit": "Submit",
+      "edit": "Edit",
+      "delete": "Delete",
+      "view": "View",
+      "close": "Close"
+    },
+    "status": {
+      "pending": "Pending",
+      "approved": "Approved",
+      "rejected": "Rejected",
+      "inProgress": "In Progress",
+      "completed": "Completed"
+    },
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "success": "Success",
+    "noData": "No data available",
+    "search": "Search...",
+    "filter": "Filter",
+    "clear": "Clear",
+    "select": "Select...",
+    "required": "Required field"
+  },
+  "precautions": {
+    "title": "Safety Precautions",
+    "before": "Before Emergency",
+    "during": "During Emergency", 
+    "after": "After Emergency",
+    "checklist": "Download Checklist"
+  },
+  "ngos": {
+    "title": "Local NGOs",
+    "contact": "Contact",
+    "volunteer": "Volunteer",
+    "donate": "Donate"
+  },
+  "evacuation": {
+    "title": "Evacuation Support",
+    "routes": "Evacuation Routes",
+    "shelters": "Emergency Shelters",
+    "capacity": "Capacity",
+    "eta": "ETA"
+  }
+}
+
+

@@ -1,0 +1,100 @@
+[
+  {
+    "id": "1",
+    "name": "Food Supplies",
+    "category": "essential",
+    "total": 500,
+    "allocated": 200,
+    "available": 300,
+    "unit": "meals",
+    "location": "Central Warehouse",
+    "lastUpdated": "2024-01-15T10:00:00Z",
+    "priority": "high"
+  },
+  {
+    "id": "2",
+    "name": "Water Bottles",
+    "category": "essential",
+    "total": 1000,
+    "allocated": 400,
+    "available": 600,
+    "unit": "bottles",
+    "location": "Central Warehouse",
+    "lastUpdated": "2024-01-15T10:00:00Z",
+    "priority": "high"
+  },
+  {
+    "id": "3",
+    "name": "Medical Kits",
+    "category": "medical",
+    "total": 100,
+    "allocated": 45,
+    "available": 55,
+    "unit": "kits",
+    "location": "Medical Center",
+    "lastUpdated": "2024-01-15T09:30:00Z",
+    "priority": "critical"
+  },
+  {
+    "id": "4",
+    "name": "Blankets",
+    "category": "comfort",
+    "total": 300,
+    "allocated": 150,
+    "available": 150,
+    "unit": "pieces",
+    "location": "Central Warehouse",
+    "lastUpdated": "2024-01-15T09:45:00Z",
+    "priority": "medium"
+  },
+  {
+    "id": "5",
+    "name": "Emergency Tents",
+    "category": "shelter",
+    "total": 50,
+    "allocated": 25,
+    "available": 25,
+    "unit": "tents",
+    "location": "Equipment Depot",
+    "lastUpdated": "2024-01-15T09:15:00Z",
+    "priority": "high"
+  },
+  {
+    "id": "6",
+    "name": "Flashlights",
+    "category": "equipment",
+    "total": 200,
+    "allocated": 80,
+    "available": 120,
+    "unit": "pieces",
+    "location": "Equipment Depot",
+    "lastUpdated": "2024-01-15T08:30:00Z",
+    "priority": "medium"
+  },
+  {
+    "id": "7",
+    "name": "First Aid Supplies",
+    "category": "medical",
+    "total": 150,
+    "allocated": 60,
+    "available": 90,
+    "unit": "kits",
+    "location": "Medical Center",
+    "lastUpdated": "2024-01-15T08:45:00Z",
+    "priority": "high"
+  },
+  {
+    "id": "8",
+    "name": "Communication Radios",
+    "category": "equipment",
+    "total": 30,
+    "allocated": 15,
+    "available": 15,
+    "unit": "radios",
+    "location": "Equipment Depot",
+    "lastUpdated": "2024-01-15T07:20:00Z",
+    "priority": "critical"
+  }
+]
+
+
